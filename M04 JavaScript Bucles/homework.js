@@ -172,7 +172,7 @@ function esPrimo(num) {
       return false;
    }
    for(i=2; i <num; i++) {
-      if(num % i ===0 && num / i !==1) {
+      if(num % i ===0) {
          return false;
       }
    } return true;
