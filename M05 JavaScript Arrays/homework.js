@@ -154,7 +154,15 @@ function empiezaConNueve(num) {
 function todosIguales(array) {
    // Si todos los elementos del arreglo son iguales, retornar true.
    // Caso contrario retornar false.
-   // Tu código:
+   // Tu código: 
+   
+   //  for(i = 0; i < array.length -1; i++) {
+   //    if(array[i] !== array[i + 1]) {
+   //       return false;
+   //    }
+   //  }
+   //  return true;
+
    let comprobar = array.every(element => array[0] === element)
    return comprobar;
 }
