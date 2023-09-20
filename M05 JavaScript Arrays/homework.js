@@ -248,6 +248,19 @@ function continueStatement(num) {
    // se continua con la siguiente iteración.
    // [PISTA]: utiliza el statement 'continue'.
    // Tu código:
+    // let newArr = [];
+    // let suma = num;
+
+    // for(i = 1; i < 11; i++) {
+    //    if(i === 5) {
+    //       continue;
+    //    } else {
+    //       suma += 2;
+    //       newArr.push(suma);
+    //    }
+    // }
+    // return newArr;
+
 
    let notIfive = [];
    let add = num;
